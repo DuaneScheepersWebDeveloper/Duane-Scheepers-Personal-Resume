@@ -1,5 +1,5 @@
 * {
-	font-family: 'Roboto', arial, helvetica, sans-serif;
+	font-style: 'Michroma' Roboto;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -9,6 +9,7 @@ body {
 	background-color: #111;
 	margin: 0;
 }
+
 header {
 	margin: 0;
 }
@@ -16,6 +17,7 @@ header {
 .logo {
 	color: white;
 }
+
 /* ------------------------------------------------------------ */
 /* This is my header CSS */
 /* ------------------------------------------------------------ */
@@ -54,9 +56,11 @@ header {
 	cursor: pointer;
 	font-size: 1.4rem;
 }
+
 .SecondMainHeadingText {
 	font-size: 1.3rem;
 }
+
 .headerText {
 	cursor: pointer;
 	font-size: 4rem;
@@ -97,9 +101,11 @@ header {
 .block:hover img {
 	filter: none;
 }
+
 .bottomHeaderHeadings {
 	font-size: 1.2rem;
 }
+
 /* Media queries for the header */
 @media (max-width: 500px) {
 	.heading {
@@ -122,24 +128,29 @@ header {
 		width: 100%;
 		height: auto;
 	}
+
 	.codespaceLogo {
 		width: auto;
 		height: auto;
 		display: none;
 	}
+
 	.headings {
 		font-size: 40px;
 	}
+
 	.topIcons i {
 		font-size: 2rem;
 	}
 }
+
 @media only screen and (max-width: 768px) {
 	.headerText {
 		cursor: pointer;
 		font-size: 3rem;
 		margin-bottom: 10px;
 	}
+
 	.headShot {
 		border-radius: 100%;
 		height: 100%;
@@ -147,6 +158,7 @@ header {
 		border: solid 4px #ccc;
 		filter: grayscale();
 	}
+
 	.mainHeadingText {
 		font-size: 1.2rem;
 	}
@@ -155,11 +167,13 @@ header {
 		font-size: 1.3rem;
 	}
 }
+
 @media only screen and (max-width: 900px) {
 	.bottomHeaderHeadings {
 		font-size: 1rem;
 	}
 }
+
 /* ------------------------------------------------------------ */
 .gifImage {
 	padding: 5px;
@@ -177,9 +191,11 @@ header {
 	width: 8rem;
 	height: auto;
 }
+
 .underline {
 	text-decoration: underline;
 }
+
 /* ------------------------------------------------------------ */
 /* This is my Main content CSS */
 /* ------------------------------------------------------------ */
@@ -194,44 +210,55 @@ header {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
+
 /* ---------------------------------- */
 /* The Education section CSS */
 /* ---------------------------------- */
 .educationWrapper {
 	display: flex;
+	height: auto;
 }
+
 .educationHeading {
 	font-size: 3rem;
 }
+
 .educationSubHeading {
 	font-size: 1.8rem;
 }
+
 .educationTextWrapper {
 	background-color: #111;
-	height: auto;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
 }
 
 .qualificationText {
 	padding: 20px;
 	text-align: center;
-	font-size: 25px;
+	font-size: 1.2rem;
 	font-style: 'Michroma' Roboto;
 }
+
 .qualificationTextParagraph {
 	padding: 20px;
 }
+
 .educationHeading {
 	text-align: center;
 	padding: 20px;
 }
+
 @media only screen and (max-width: 768px) {
 	.qualificationText {
 		font-size: 1.2rem;
 	}
+
 	.educationWrapper .bottomLine {
 		display: none;
 	}
 }
+
 @media screen and (max-width: 600px) {
 	.educationWrapper {
 		display: flex;
@@ -239,6 +266,7 @@ header {
 		justify-content: space-around;
 		flex-flow: wrap;
 	}
+
 	.secondEducationWrapper {
 		display: flex;
 		grid-template-columns: 1fr 1fr;
@@ -247,17 +275,20 @@ header {
 		margin-left: 25%;
 		margin-right: 25%;
 	}
+
 	.secondEducationWrapper img {
 		height: auto;
 		width: 10rem;
 	}
 }
+
 /* ---------------------------------- */
 /* The Skills section CSS */
 /* ---------------------------------- */
 .heading-style {
 	font-size: 3.5rem;
 }
+
 .skillsSectionHeadingBar {
 	padding: 20px;
 	text-align: center;
@@ -298,6 +329,7 @@ header {
 	font-weight: bold;
 	font-style: 'Michroma' Roboto;
 }
+
 .skillsSection .skillsCard .skillsDiv {
 	padding: 20px;
 	text-align: center;
@@ -311,6 +343,7 @@ header {
 	transition: 0.5s;
 	transform: translateY(0px);
 }
+
 .skillsSection .skillsCard .skillsDiv h2 {
 	position: absolute;
 	top: -40px;
@@ -319,19 +352,23 @@ header {
 	color: rgba(255, 255, 255, 0.05);
 	pointer-events: none;
 }
+
 .skillsSection .skillsCard .skillsDiv h3 {
 	font-size: 1.8em;
 	z-index: 1;
 }
+
 .skillsSection .skillsCard .skillsDiv p {
 	font-size: 1em;
 	font-weight: 300;
 }
+
 .skillsDiv {
 	justify-content: center;
 	align-items: center;
 	display: flex;
 }
+
 .skillsDiv::before {
 	content: '';
 	position: absolute;
@@ -340,6 +377,7 @@ header {
 	width: 100%;
 	height: 100%;
 }
+
 .skillsIcon {
 	font-size: 3em;
 }
@@ -348,43 +386,50 @@ header {
 	.skillsCard {
 		width: 90%;
 	}
+
 	.heading-style {
 		font-size: 3rem;
 	}
 }
-/* ---------------------------------- */
 
-.changingImagesDiv {
-	width: 4rem;
-	height: 6rem;
-	padding: 5rem;
+/* ---------------------------------- */
+.carousel-images-custom {
+	width: auto;
+	height: 13rem;
+	padding: 10px;
 }
+
 .custom-carousel-item {
 	background-color: #111;
 
 	width: 100%;
-	height: 100%;
+	height: auto;
 }
+
 .custom-carousel-item img {
 	width: 12rem;
 	height: auto;
 	padding: -20px;
 }
+
 .experienceSubSection {
 	display: flex;
 }
+
 .monitorImg {
 	justify-content: center;
 	align-items: center;
 	width: 30rem;
 	height: auto;
 }
+
 /* ---------------------------------- */
 @media screen and (max-width: 600px) {
 	.monitorImg {
 		width: 100%;
 		height: auto;
 	}
+
 	.experienceSubSection {
 		display: flex;
 		justify-content: center;
@@ -392,9 +437,11 @@ header {
 		flex-wrap: wrap;
 	}
 }
+
 .cvDiv {
 	margin: 20px;
 }
+
 /* ------------------------------------------------------------ */
 /* This is the Footer CSS */
 /* ---------------------------------- */
@@ -547,4 +594,5 @@ footer {
 	padding-top: 20px;
 	border-top: 2px solid rgb(255, 255, 255);
 }
+
 /* ------------------------------------------------------------ */
