@@ -202,8 +202,11 @@ header {
 .educationWrapper {
 	display: flex;
 }
-.educationWrapper h2 {
-	font-size: 30px;
+.educationHeading {
+	font-size: 3rem;
+}
+.educationSubHeading {
+	font-size: 1.8rem;
 }
 .educationTextWrapper {
 	background-color: #111;
@@ -255,7 +258,7 @@ header {
 /* The Skills section CSS */
 /* ---------------------------------- */
 .heading-style {
-	font-size: 4rem;
+	font-size: 3.5rem;
 }
 .skillsSectionHeadingBar {
 	padding: 20px;
@@ -366,8 +369,8 @@ header {
 	height: 100%;
 }
 .custom-carousel-item img {
-	width: 20rem;
-	height: 100%;
+	width: 12rem;
+	height: auto;
 	padding: -20px;
 }
 /* ---------------------------------- */
