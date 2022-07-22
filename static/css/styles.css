@@ -127,8 +127,11 @@ header {
 		height: auto;
 		display: none;
 	}
-	.headings i {
+	.headings {
 		font-size: 40px;
+	}
+	.topIcons i {
+		font-size: 2rem;
 	}
 }
 @media only screen and (max-width: 768px) {
@@ -147,14 +150,9 @@ header {
 	.mainHeadingText {
 		font-size: 1.2rem;
 	}
-	.topIcons {
-		font-size: 1.2rem;
-	}
+
 	.bottomHeaderHeadings {
 		font-size: 1.3rem;
-	}
-	.headings i {
-		font-size: 20px;
 	}
 }
 @media only screen and (max-width: 900px) {
@@ -355,8 +353,7 @@ header {
 	}
 }
 /* ---------------------------------- */
-.customCarouselBlock {
-}
+
 .changingImagesDiv {
 	width: 4rem;
 	height: 6rem;
@@ -373,11 +370,26 @@ header {
 	height: auto;
 	padding: -20px;
 }
+.experienceSubSection {
+	display: flex;
+}
+.monitorImg {
+	justify-content: center;
+	align-items: center;
+	width: 30rem;
+	height: auto;
+}
 /* ---------------------------------- */
 @media screen and (max-width: 600px) {
 	.monitorImg {
 		width: 100%;
 		height: auto;
+	}
+	.experienceSubSection {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
 	}
 }
 .cvDiv {
