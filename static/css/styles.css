@@ -163,22 +163,7 @@ header {
 	}
 }
 /* ------------------------------------------------------------ */
-.gifImage {
-	padding: 5px;
-	width: 150%;
-	height: 100%;
-}
 
-.gifImageGrid {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-	background-color: #ccc;
-}
-
-.imgDiv {
-	width: 8rem;
-	height: auto;
-}
 .underline {
 	text-decoration: underline;
 }
@@ -240,7 +225,6 @@ header {
 	}
 	.secondEducationWrapper {
 		display: flex;
-		grid-template-columns: 1fr 1fr;
 		justify-content: center;
 		align-items: center;
 		margin-left: 25%;
@@ -272,7 +256,6 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 	flex-wrap: wrap;
 }
 
@@ -351,6 +334,23 @@ header {
 		font-size: 3rem;
 	}
 }
+
+.monitorImg {
+	width: 100%;
+	height: auto;
+}
+@media screen and (max-width: 600px) {
+	.experienceSubSection {
+		display: grid;
+		grid-template-rows: 1fr 1fr;
+	}
+
+	.monitorImg {
+		width: 100%;
+		height: auto;
+		margin-bottom: -20rem;
+	}
+}
 /* ---------------------------------- */
 .customCarouselBlock {
 }
@@ -366,8 +366,8 @@ header {
 	height: 100%;
 }
 .custom-carousel-item img {
-	width: 20rem;
-	height: 100%;
+	width: auto;
+	height: 10rem;
 	padding: -20px;
 }
 /* ---------------------------------- */
