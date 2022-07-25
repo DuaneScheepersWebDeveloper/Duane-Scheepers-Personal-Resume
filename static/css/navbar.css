@@ -126,8 +126,8 @@
 		width: 35px;
 		height: 30px;
 		position: fixed;
-		top: 10px;
-		right: 10px;
+		top: 25px;
+		right: 25px;
 		cursor: pointer;
 		display: flex;
 		flex-direction: column;
