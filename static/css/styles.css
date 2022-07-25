@@ -64,7 +64,6 @@ header {
 .headerText {
 	cursor: pointer;
 	font-size: 4rem;
-	margin-bottom: 20px;
 }
 
 .headings {
@@ -117,9 +116,6 @@ header {
 		font-size: 1.5rem;
 		width: 100%;
 		background-image: url(../images/3.jpg);
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
 		color: white;
 	}
 
@@ -175,17 +171,7 @@ header {
 }
 
 /* ------------------------------------------------------------ */
-.gifImage {
-	padding: 5px;
-	width: 150%;
-	height: 100%;
-}
-
-.gifImageGrid {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-	background-color: #ccc;
-}
+/* Miscellaneous  */
 
 .imgDiv {
 	width: 8rem;
@@ -266,7 +252,9 @@ header {
 		justify-content: space-around;
 		flex-flow: wrap;
 	}
-
+	.educationSubHeading {
+		font-size: 90%;
+	}
 	.secondEducationWrapper {
 		display: flex;
 		grid-template-columns: 1fr 1fr;
@@ -285,9 +273,6 @@ header {
 /* ---------------------------------- */
 /* The Skills section CSS */
 /* ---------------------------------- */
-.heading-style {
-	font-size: 3.5rem;
-}
 
 .skillsSectionHeadingBar {
 	padding: 20px;
@@ -437,11 +422,12 @@ header {
 		flex-wrap: wrap;
 	}
 }
-
-.cvDiv {
-	margin: 20px;
+/* ------------------------------------------------------------ */
+/* Code mainly for the download section */
+/* ---------------------------------- */
+.modal-content-custom {
+	color: black;
 }
-
 /* ------------------------------------------------------------ */
 /* This is the Footer CSS */
 /* ---------------------------------- */
