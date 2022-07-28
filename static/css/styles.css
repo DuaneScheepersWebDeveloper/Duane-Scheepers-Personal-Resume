@@ -256,9 +256,11 @@ header {
 		justify-content: space-around;
 		flex-flow: wrap;
 	}
+
 	.educationSubHeading {
 		font-size: 90%;
 	}
+
 	.secondEducationWrapper {
 		display: flex;
 		grid-template-columns: 1fr 1fr;
@@ -427,12 +429,14 @@ header {
 		flex-wrap: wrap;
 	}
 }
+
 /* ------------------------------------------------------------ */
 /* Code mainly for the download section */
 /* ---------------------------------- */
 .modal-content-custom {
 	color: black;
 }
+
 /* ------------------------------------------------------------ */
 /* This is the Footer CSS */
 /* ---------------------------------- */
