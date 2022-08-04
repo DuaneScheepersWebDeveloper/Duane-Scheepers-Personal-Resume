@@ -393,7 +393,7 @@ header {
 
 .custom-carousel-item {
 	background-color: #111;
-
+	color: white;
 	width: 100%;
 	height: auto;
 }
@@ -436,7 +436,30 @@ header {
 .modal-content-custom {
 	color: black;
 }
+/* ------------------------------------------------------------ */
+/* This is the Submit CSS */
+/* ---------------------------------- */
 
+.submitSection button {
+	margin: 30px;
+}
+.submitButtonDiv {
+	display: grid;
+	justify-content: center;
+}
+.submitSection input {
+	background: rgba(255, 255, 255, 0.05);
+	box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+	border-top: 1px solid rgba(255, 255, 255, 0.5);
+	border-left: 1px solid rgba(255, 255, 255, 0.5);
+	backdrop-filter: blur(0.25px);
+	-webkit-backdrop-filter: blur(0.25px);
+}
+.submitSection input:hover,
+.submitSection input:focus {
+	color: white;
+	background: rgba(255, 255, 255, 0.05);
+}
 /* ------------------------------------------------------------ */
 /* This is the Footer CSS */
 /* ---------------------------------- */
