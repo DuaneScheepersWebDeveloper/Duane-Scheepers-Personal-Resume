@@ -476,26 +476,27 @@ footer {
 }
 
 .socials {
-	list-style: none;
-	display: flex;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
 	align-items: center;
+
 	justify-content: center;
 }
 
-.socials li {
-	align-items: center;
+.socials div {
+	padding: 15px;
 	justify-content: center;
-	margin-left: -1.2rem;
-	padding: 2rem;
-	margin-right: 1rem;
+	text-align: center;
 }
 
 .socials a {
+	margin-left: -20px;
+	display: flex;
 	text-decoration: none;
 	color: #fff;
-
-	padding: 5px;
-
+	justify-content: center;
+	padding: 20px;
+	text-align: center;
 	border-radius: 100%;
 }
 
@@ -509,7 +510,6 @@ footer {
 .socials a:hover i {
 	color: dodgerblue;
 }
-
 .footer-bottom {
 	background: #000;
 	width: 100%;
